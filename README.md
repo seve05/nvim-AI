@@ -1,6 +1,8 @@
 # Keyboard_AI
 NEOVIM LUA / Python implementation of LLM integration for coding (this is an optimization problem if you try to do this locally on small models)
+
 ToDO: (It would be worth a shot to have a model dissect the code into chunks and run each chunk separately, then consolidate the chunks in a final step)
+
 # Commands
 nvim somefile.filenameextension -opens neovim <br/>
 :LLM - this invokes an instance of LLM in Ollama <br/>
