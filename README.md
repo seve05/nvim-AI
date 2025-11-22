@@ -1,12 +1,13 @@
 # Keyboard_AI
 NEOVIM LUA / Python implementation of LLM integration for coding (this is an optimization problem if you try to do this locally on small models)
+ToDO: (It would be worth a shot to have a model dissect the code into chunks and run each chunk separately, then consolidate the chunks in a final step)
 # Commands
 nvim somefile.filenameextension -opens neovim <br/>
 :LLM - this invokes an instance of LLM in Ollama <br/>
 i - type in any prompt <br/>
 :Go - send prompt to a temporary file, buffer gets sent into different file, concatenates as prompt for LLM <br/>
 
-wait for response depending on the speed of your GPU..
+wait for response depending on the speed of your GPU, RAM..
 
 # Explanation
 init.lua : standard configuration file for lua, require method to use lua scripts and add command :LLM <br/>
